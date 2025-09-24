@@ -9,17 +9,35 @@
     height: 100vh;
 }
 .sidebar{
-    background-color: red;
+    background-color: black;
     width: 285px;
+    border-radius: 1rem; /* 16px */
 }
 .main-content{
-    background-color: burlywood;
+    background-color: #121212;
     flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
 }
 .music-player{
-    background-color: cadetblue;
+    background-color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 72px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+    padding:.5rem 1rem;
+
 }
