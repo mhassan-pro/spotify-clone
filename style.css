@@ -50,13 +50,16 @@ a{
     opacity:1;
     cursor: pointer;
 }
-
-
 .nav-option a {
     font-size:1.1rem; /* 16px */
 }
 .nav-option i{
     padding-right: .7rem;
     font-size: 1.25rem;
+    color: white;
+}
+.library{
+    background-color: #121212;
+    border-radius:1rem;
     color: white;
 }
