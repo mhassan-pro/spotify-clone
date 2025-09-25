@@ -129,6 +129,16 @@ img{
     border: solid white 1px;
 }
 
+/* main-content */
+.sticky-navbar{
+    position: fixed;
+    top: 0;
+    background-color: #1f1f1f;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
 
 
 
