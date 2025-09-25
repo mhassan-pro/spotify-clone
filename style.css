@@ -31,7 +31,8 @@ a{
     color: white;
 }
 
-
+/* sidebar css */
+/* navbar css */
 .navbar{
     background-color: #121212;
     display: flex;
@@ -60,6 +61,7 @@ a{
     color: white;
 }
 
+/* library css */
 img{
     height: 1.25rem;
     width: 1.25rem;
@@ -76,13 +78,51 @@ img{
     display: flex;
     justify-content: space-between;
     padding: .5rem 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: white;
+ }
+ .options{
     opacity: 0.7;
  }
- .icons i{
-    margin-left: .5rem;
+ .options:hover{
+    opacity: 1;
+}
+ .options img{
+    margin-right: 0.3rem;
+    cursor: pointer;
+
  }
+ .icons i{
+    opacity: 0.7;
+    margin-left: 0.7rem;
+    padding-top: .4rem;
+ }
+ .icons i:hover{
+    opacity: 1;
+    cursor: pointer;
+ }
+
+ /* lib-boxes css */
+ .lib-boxes{
+    color: white;
+    background-color: #1f1f1f;
+
+ }
+ .box{
+    margin: .5rem 0rem;
+    padding:1rem 1.25rem;
+ }
+.box-p1{
+    font-size: 1rem;
+}
+.box-p2{
+    font-size: 0.87rem;
+}
+.badge{
+    border-radius:1rem solid white;
+    font-weight: 700;
+}
+
 
 
 
