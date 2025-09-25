@@ -78,6 +78,7 @@ img{
     display: flex;
     justify-content: space-between;
     padding: .5rem 1rem;
+    margin-top: 0.5rem;
     font-size: 1rem;
     color: white;
  }
@@ -103,12 +104,12 @@ img{
  }
 
  /* lib-boxes css */
-
+ 
  .box{
     color: white;
     background-color: #1f1f1f;
     border-radius: 1rem;
-    margin: .5rem 0rem;
+    margin-top: 1rem;
     padding:1rem 1.25rem;
     line-height: 1.4rem;
  }
@@ -126,12 +127,8 @@ img{
     padding:0.25rem 1rem;
     margin-top:0.75rem ;
     border: solid white 1px;
-    transition: all 0.4s ease-in;
 }
-.badge:hover{
-    font-size: .85rem;
-    cursor: pointer;
-}
+
 
 
 
