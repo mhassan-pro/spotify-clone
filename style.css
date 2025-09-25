@@ -10,7 +10,7 @@
 }
 .sidebar{
     background-color: black;
-    width: 285px;
+    width: 300px;
     border-radius: 1rem; /* 16px */
 }
 .main-content{
@@ -40,6 +40,7 @@ a{
     justify-content:center ;
     padding:.5rem 0.75rem;
     border-radius: 1rem;
+    margin: .6rem .6rem;
 }
 .nav-option{
     padding: .5rem 1rem;
@@ -62,4 +63,16 @@ a{
     background-color: #121212;
     border-radius:1rem;
     color: white;
+    height: 100vh;
+    padding:1.5rem 0rem ;
+    margin: .7rem .7rem;
+}
+ img{
+    height: 1.25rem;
+    width: 1.25rem;
+ }
+.lib-option{
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
 }
