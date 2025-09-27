@@ -141,7 +141,6 @@ img{
     align-items: center;
 }
 .icons-nav{
-    border:yellow solid 2px;
     margin-left:1rem ;
     padding: .5rem 0.75rem;
 }
@@ -168,14 +167,13 @@ img{
     color:black;
     cursor: pointer;
     display: flex;
-    font-size: .9rem;
+    font-size: .85rem;
     margin: 0 .5rem;
     padding: .2rem 1rem;
 }
-.btns button:hover{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
-}
+
+
+
 
 
 
