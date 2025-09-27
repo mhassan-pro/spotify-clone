@@ -151,8 +151,23 @@ img{
     height: 1.5rem;
     width: 1.5rem;
     cursor: pointer;
-
+    opacity: .7;
 }
+.icons-nav img:hover{
+    opacity: 1;
+}
+.btns{
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}   
+.btns button{
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+
 
 
 
