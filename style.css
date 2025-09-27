@@ -157,19 +157,25 @@ img{
     opacity: 1;
 }
 .btns{
-    border: 2px solid yellow;
     display: flex;
     align-items: center;
     margin-right: 1rem;
 }   
 .btns button{
-    margin-right: 1rem;
-    margin-bottom: .5rem;
+    align-items: center;
+    background-color:white;
+    border: none;
+    color:black;
+    cursor: pointer;
+    display: flex;
+    font-size: .9rem;
+    margin: 0 .5rem;
+    padding: .2rem 1rem;
 }
-
-
-
-
+.btns button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+}
 
 
 
