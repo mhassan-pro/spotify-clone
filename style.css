@@ -227,26 +227,31 @@ img{
 
 /* player-controls */
 .album{
-    border: 2px solid red;
+    border: 1px solid red;
     width: 25%;
 }
 .player{
-    border: 2px solid blue;
+    border: 1px solid blue;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
+    color: white;
 }
-.player-controls img{
-    margin-left: .7rem;
+.player-controls{
+    border: 1px solid yellow;
 }
-.play-icon{
-    font-size: 5rem;
+.playback-bar{
+    border: 1px solid purple;
 }
+
 .controls{
-    border: 2px solid green;
+    border: 1px solid green;
     width: 25%;
 }
+
+
 
 
 
