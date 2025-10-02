@@ -179,6 +179,11 @@ img{
     height: 220px;
     padding: .5rem;
 }
+.main-content h2{
+    color: white;
+    font-weight: 600;
+    padding: 1rem 0;
+}
 .card-container{
     display: flex;
 }
