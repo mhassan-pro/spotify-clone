@@ -173,19 +173,20 @@ img{
 }
 
 .card{
-    border: 2px solid yellow;
     background-color: #232323;
     width: 150px;
     height: 220px;
     padding: .5rem;
+    border-radius: .7rem;
 }
 .main-content h2{
     color: white;
     font-weight: 600;
     padding: 1rem 0;
 }
-.card-container{
+.cards-container{
     display: flex;
+    gap: 1rem;
 }
 .card img{
     height: 150px;
