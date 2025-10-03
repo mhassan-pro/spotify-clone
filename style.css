@@ -256,6 +256,11 @@ img{
     opacity: .7;
     font-size: .65rem;
 }
+.album-icons{
+    font-size: 1rem;
+    display: flex;
+    
+}
 .player{
     display: flex;
     flex-direction: column;
