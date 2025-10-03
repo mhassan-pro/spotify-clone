@@ -227,7 +227,6 @@ img{
 
 /* player-controls */
 .album{
-    border: 1px solid red;
     width: 25%;
     display: flex;
     justify-content:flex-start ;
@@ -273,6 +272,8 @@ img{
     opacity: 1;
     cursor: pointer;
 }
+
+
 .player{
     display: flex;
     flex-direction: column;
@@ -321,6 +322,10 @@ img{
     border-radius: 50%;
     background-color: #1db701;
     margin-top: -6px;
+}
+span{
+    font-size: .8rem;
+    padding: 0 .5rem;
 }
 
 .controls{
