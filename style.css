@@ -229,9 +229,34 @@ img{
 .album{
     border: 1px solid red;
     width: 25%;
+    display: flex;
+    justify-content:flex-start ;
+}
+.curr-song{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: .75rem;
+    margin-left: .5rem;
+}
+.curr-song img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+}
+.song-name{
+    font-weight: 600;
+}
+.artist-name{
+    opacity: .7;
+    font-size: .65rem;
 }
 .player{
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,7 +281,6 @@ img{
 }
 
 .playback-bar{
-    border: 1px solid purple;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,21 +288,22 @@ img{
 }
 .progress-bar{
     appearance: none;
-    width: 70%;
+    width: 60%;
     background-color: transparent;
     cursor: pointer;
 }
 .progress-bar::-webkit-slider-runnable-track{
     background-color: #ddd;
     border-radius: 100px;
-    height: 0.25rem;
+    height: 0.2rem;
 }
 .progress-bar::-webkit-slider-thumb{
     appearance: none;
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    
+    background-color: #1db701;
+    margin-top: -6px;
 }
 
 .controls{
