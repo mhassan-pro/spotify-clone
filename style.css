@@ -237,13 +237,14 @@ img{
     align-items: center;
     color: white;
     font-size: .75rem;
-    margin-left: .5rem;
+    margin-left: 1.5rem;
 }
 .curr-song img{
     height: 3rem;
     width: 3rem;
     margin-right: .5rem;
     border-radius: .5rem;
+    cursor: pointer;
 }
 .song-info{
     display: flex;
@@ -252,10 +253,13 @@ img{
 }
 .song-name{
     font-weight: 600;
+    cursor: pointer;
+    margin-bottom: .15rem;
 }
 .artist-name{
     opacity: .7;
     font-size: .65rem;
+    cursor: pointer;
 }
 .album-icons{
     font-size: 1.1rem;
@@ -264,6 +268,10 @@ img{
 .album-icons i{
     margin-right: .7rem;
     opacity: .7;
+}
+.album-icons i:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 .player{
     display: flex;
