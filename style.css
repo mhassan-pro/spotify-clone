@@ -248,6 +248,7 @@ img{
 .song-info{
     display: flex;
     flex-direction: column;
+    margin-left:1rem;
 }
 .song-name{
     font-weight: 600;
@@ -257,9 +258,12 @@ img{
     font-size: .65rem;
 }
 .album-icons{
-    font-size: 1rem;
-    display: flex;
-    
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+.album-icons i{
+    margin-right: .7rem;
+    opacity: .7;
 }
 .player{
     display: flex;
